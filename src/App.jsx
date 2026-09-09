@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import furniroLogo from './assets/furniro.png'
 
+import Header from './components/header'
+import HeroSection from "./components/herosection";
+import BrowseRange from "./components/BrowseRange";
+import OurProducts from "./components/OurProducts";
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <img src={furniroLogo} alt="logo" className="w-18px h-18px" />
-      <h1 className="text-5xl font-bold text-gray-800">
-        Furniro
-      </h1>
+    <div className="min-h-screen bg-white">
+     <Header/>
+     <HeroSection />
+      {/* Hero section aap khud add karein */}
+     
+        <BrowseRange />
+    <OurProducts />
+
+     
     </div>
   )
 }

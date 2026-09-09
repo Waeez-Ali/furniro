@@ -1,0 +1,13 @@
+export { default as Bed } from "./bed.png";
+export { default as Dining } from "./dining.png";
+export { default as Furniro } from "./furniro.png";
+export { default as Grifo } from "./grifo.png";
+export { default as Hero } from "./hero.png";
+export { default as Living } from "./living.png";
+export { default as Lolito } from "./lolito.png";
+export { default as Muggo } from "./muggo.png";
+export { default as Pingky } from "./pingky.png";
+export { default as Respira } from "./respira.png";
+export { default as Sofa } from "./sofa.png";
+export { default as Table } from "./table.png";
+export { default as White } from "./white.png";
